@@ -1,38 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - gloria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+    body {
+      font-family: 'Inter', 'Noto Sans JP', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen py-12 px-4 sm:px-6 lg:px-8 selection:bg-blue-100 selection:text-blue-900">
+  <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-10 text-white">
+      <h1 class="text-3xl font-bold tracking-tight">プライバシーポリシー</h1>
+    </div>
 
-    <Box className="p-4">
-      <VStack space="md">
-        <Heading size="xl">プライバシーポリシー</Heading>
-        <Tex>
+    <!-- Content -->
+    <div class="p-8 sm:p-10 space-y-10">
+      
+      <section>
+        <p class="leading-relaxed text-slate-600">
           本プライバシーポリシーは、gloria（以下「本アプリ」といいます）の利用における個人情報の取り扱いについて定めるものです。
-        </Text>
-        <Heading size="md" className="mt-4">
-          1. 収集する情報
-        </Heading>
-        <Text>
-          本アプリは、ユーザーが本アプリを利用する際に、以下の情報を収集することがあります。
-          {'\n'}・アカウント情報（Google、Apple認証時のメールアドレス等）
-          {'\n'}・利用履歴（習慣の記録、アイデンティティ等）
-        </Text>
-        <Heading size="md" className="mt-4">
-          2. 情報の利用目的
-        </Heading>
-        <Text>
-          収集した情報は、以下の目的のために利用されます。
-          {'\n'}・本アプリの提供および運営
-          {'\n'}・ユーザーへのサポート
-          {'\n'}・本アプリの改善および新機能の開発
-        </Text>
-        <Heading size="md" className="mt-4">
-          3. 第三者への提供
-        </Heading>
-        <Text>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center">
+          <span class="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3 font-semibold">1</span>
+          収集する情報
+        </h2>
+        <div class="bg-slate-50 rounded-xl p-6 border border-slate-100">
+          <p class="mb-4 text-slate-700">本アプリは、ユーザーが本アプリを利用する際に、以下の情報を収集することがあります。</p>
+          <ul class="space-y-3 text-slate-600 pl-1">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>アカウント情報（Google、Apple認証時のメールアドレス等）</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>利用履歴（習慣の記録、アイデンティティ等）</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center">
+          <span class="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3 font-semibold">2</span>
+          情報の利用目的
+        </h2>
+        <div class="bg-slate-50 rounded-xl p-6 border border-slate-100">
+          <p class="mb-4 text-slate-700">収集した情報は、以下の目的のために利用されます。</p>
+          <ul class="space-y-3 text-slate-600 pl-1">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>本アプリの提供および運営</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>ユーザーへのサポート</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>本アプリの改善および新機能の開発</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-900 mb-3 flex items-center">
+          <span class="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3 font-semibold">3</span>
+          第三者への提供
+        </h2>
+        <p class="leading-relaxed text-slate-600 pl-11">
           法令に基づく場合を除き、ユーザーの同意なく個人情報を第三者に提供することはありません。
-        </Text>
-        <Heading size="md" className="mt-4">
-          4. お問い合わせ
-        </Heading>
-        <Text>本プライバシーポリシーに関するお問い合わせは、運営までご連絡ください。</Text>
-      </VStack>
-    </Box>
-  );
-};
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-900 mb-3 flex items-center">
+          <span class="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3 font-semibold">4</span>
+          お問い合わせ
+        </h2>
+        <p class="leading-relaxed text-slate-600 pl-11">
+          本プライバシーポリシーに関するお問い合わせは、運営までご連絡ください。
+        </p>
+      </section>
+
+    </div>
+    
+  </div>
+</body>
+</html>
